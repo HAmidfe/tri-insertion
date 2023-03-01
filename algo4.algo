@@ -1,0 +1,22 @@
+algorthime tri inserion
+VARIABLE
+t : tab[100]
+i : int
+j : int
+k : int
+DEBUT
+j←2
+while ( j<=length(t)) 
+{  
+  i:=j-1
+  k←t[j]
+  while( i>0 et que t[i]>k) 
+  {
+    for  (i =-1; i <j; i++)  
+    t[i+1]:=t[i]
+    i:=i-1
+}
+  t[i+1]←k
+  j←j+1
+}
+FIN
